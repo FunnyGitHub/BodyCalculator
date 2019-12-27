@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorAccent"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/tVheadline"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="4dp"
+        android:background="@color/colorPrimary"
+        android:text="Menü"
+        android:textAlignment="center"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display2" />
+
+    <Button
+        android:id="@+id/btnProfile"
+        android:layout_width="match_parent"
+        android:layout_height="67dp"
+        android:layout_margin="8dp"
+        android:background="@color/colorPrimaryDark"
+        android:backgroundTintMode="add"
+        android:text="Profil"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+        android:textColor="@android:color/black" />
+
+    <Button
+        android:id="@+id/btnGoals"
+        android:layout_width="match_parent"
+        android:layout_height="67dp"
+        android:layout_margin="8dp"
+        android:background="@color/colorPrimaryDark"
+        android:text="Ziele"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+        android:textColor="@android:color/black" />
+
+    <Button
+        android:id="@+id/btnSettings"
+        android:layout_width="match_parent"
+        android:layout_height="67dp"
+        android:layout_margin="8dp"
+        android:background="@color/colorPrimaryDark"
+        android:text="Einstellungen"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+        android:textColor="@android:color/black" />
+
+    <Button
+        android:id="@+id/btnHelp"
+        android:layout_width="match_parent"
+        android:layout_height="67dp"
+        android:layout_margin="8dp"
+        android:background="@color/colorPrimaryDark"
+        android:text="Hilfe"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+        android:textColor="@android:color/black" />
+
+    <Button
+        android:id="@+id/btnContact"
+        android:layout_width="match_parent"
+        android:layout_height="67dp"
+        android:layout_margin="8dp"
+        android:background="@color/colorPrimaryDark"
+        android:text="Kontakt"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+        android:textColor="@android:color/black" />
+</LinearLayout>
